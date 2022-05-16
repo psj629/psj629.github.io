@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+ 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+ 
+        li a {
+            display: block;
+            color: #000;
+            padding: 15px 25px;
+            text-decoration: none;
+        }
+ 
+        li a.active {
+            background-color: #555;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20px;
+           
+        }
+ 
+        li a:hover:not(.active) {
+            background-color: rgb(6, 205, 255);
+            color: white;
+        }
+ 
+        .bg-1 {
+            background-color: rgb(45, 170, 253);
+            color: white;
+            font-size: 20px;
+        }
+ 
+        .container-fluid {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-left: 100px;
+            text-align: center;
+ 
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <ul>
+        <li><a class="active" href="test.html">Home</a></li>
+        <li><a href="subpage.html">서울시민들의 일상 생활</a></li><br>
+        <li><a href="subpage2.html">서울 시민과 코로나 19</a></li><br>
+        <li><a href="subpage3.html">공동체의 노력</a></li><br>
+        <li><a href="subpage4.html">서울의 외국인</a></li><br>
+        <form action="https://psj629.github.io/test.html" method="post">
+            <input type="text" name="feedback" id="text" value="feedback"><br>
+            <input type="submit" onclick="alert('Thank you')"> <a href="psj629.github.io/test.html"></a>
+        </form>
+    </ul>
+   
+ 
+    <div style="margin-left:10%;padding:1px 16px;height:1000px;">
+        <h1>Survey Guide</h1>
+        <img src="bird.jpg" alt="Bird" width="1000" height="500" class="img-rounded">
+    </div>
+ 
+    <div class="container-fluid bg-1 text-center">
+        <p>Need more information visit <a href="https://data.seoul.go.kr/index.jsp">(서울열린데이터광장)</a></p>
+    </div>
+ 
+ 
+</body>
+ 
+</html>
