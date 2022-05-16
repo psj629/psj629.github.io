@@ -2,69 +2,87 @@
 <html>
 
 <head>
-    <style>
-        body {
-            margin: 0;
-        }
+  <style>
+    body {
+      margin: 0;
+    }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            width: 7%;
-            background-color: #f1f1f1;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-        }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 7%;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
 
-        li a {
-            display: block;
-            color: #000;
-            padding: 8px 16px;
-            text-decoration: none;
-        }
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
 
-        li a.active {
-            background-color: #555;
-            color: white;
-        }
+    li a.active {
+      background-color: #555;
+      color: white;
+    }
 
-        li a:hover:not(.active) {
-            background-color: rgb(6, 205, 255);
-            color: white;
-        }
+    li a:hover:not(.active) {
+      background-color: rgb(6, 205, 255);
+      color: white;
+    }
 
-        .bg-1 {
-            background-color: rgb(45, 170, 253);
-            color: white;
-        }
+    .bg-1 {
+      background-color: rgb(45, 170, 253);
+      color: rgb(255, 255, 255);
+    }
 
-        .container-fluid {
-            padding-top: 70px;
-            padding-bottom: 70px;
-            margin-left: 135px;
-            text-align: center;
-        }
-    </style>
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      margin-left: 135px;
+      text-align: center;
+    }
+
+
+    .active {
+      font-family: "Open Sans", Arial;
+      background: #EEE;
+      text-align: center;
+    }
+
+    .active {
+      font-weight: 300;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 
 <body>
-    <ul>
-        <li><a class="active" href="test.html">Home</a></li>
-        <li><a href="subpage.html">text</a></li>
-        <li><a href="subpage2.html">text</a></li>
-        <li><a href="subpage3.html">text</a></li>
-    </ul>
 
-    <div style="margin-left:10%;padding:1px 16px;height:1000px;">
-        <h1>text</h1>
-        <img src="bird.jpg" alt="Bird" width="1000" height="500" class="img-rounded">
-    </div>
+  <ul>
+    <li><a class="active" href="test.html">Home</a></li>
+    <li><a href="subpage.html">text</a></li>
+    <li><a href="subpage2.html">text</a></li>
+    <li><a href="subpage3.html">text</a></li>
+  </ul>
 
-    <div class="container-fluid bg-1 text-center">
-        <p>Need more information visit <a href="https://data.seoul.go.kr/index.jsp">(서울열린데이터광장)</a></p>
-    </div>
+  <div style="margin-left:10%;padding:1px 16px;height:1000px;">
+    <h1>text</h1>
+    <img src="bird.jpg" alt="Bird" width="1000" height="500" class="img-rounded">
+  </div>
+
+  <div class="container-fluid bg-1 text-center">
+    <p>Need more information visit <a
+        href="https://data.seoul.go.kr/index.jsp">https://data.seoul.go.kr/index.jsp(서울열린데이터광장)</a></p>
+  </div>
+
+
+
 
 
 </body>
